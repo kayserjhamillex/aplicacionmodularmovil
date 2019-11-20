@@ -9,16 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Detalle"></activity>
-        <activity android:name=".Especialidad" />
-        <activity android:name=".AboutUs" />
+        <activity android:name=".Registro"
+            android:label="Registro"
+            ></activity>
+        <activity android:name=".Detalle"
+            android:label="Detalles"/>
+        <activity android:name=".Especialidad"
+            android:label="Especialidades"/>
+        <activity android:name=".AboutUs"
+            android:label="Conocenos"/>
         <activity
-            android:name=".ui.login.Login"
-            android:label="@string/title_activity_login" />
-        <activity android:name=".MainActivity">
+            android:name=".MainActivity"
+            android:label="Aplicacion" />
+        <activity android:name=".ui.login.Login"
+            android:label="@string/title_activity_login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
